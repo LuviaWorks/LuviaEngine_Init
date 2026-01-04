@@ -1,3 +1,6 @@
+// LuviaEngine_Init - Built by Wang Shuai (LuviaWorks)
+// Part of the LuviaEngine project.
+
 const std = @import("std");
 const Build = std.Build;
 
