@@ -6,9 +6,9 @@
 
 ## 核心特性
 
-* [cite_start]**自动化 Shader 编译**：基于 `sokol-shdc` 的全自动扫描机制，支持将 `.glsl` 编译为 Zig 后端代码。
-* [cite_start]**模块化架构**：预置了 `Core`、`Render`、`AI`、`UI` 等解耦模块定义。
-* [cite_start]**现代 Zig 构建系统**：完全适配 Zig 0.15.2+ 的包管理机制（`build.zig.zon`）。 
+* **自动化 Shader 编译**：基于 `sokol-shdc` 的全自动扫描机制，支持将 `.glsl` 编译为 Zig 后端代码。
+* **模块化架构**：预置了 `Core`、`Render`、`AI`、`UI` 等解耦模块定义。
+* **现代 Zig 构建系统**：完全适配 Zig 0.15.2+ 的包管理机制（`build.zig.zon`）。 
 
 ## 项目定位
 
