@@ -1,0 +1,27 @@
+.{
+    .name = .LuviaEngine,
+    .version = "0.0.0",
+    .fingerprint = 0x98af8c9ef8b858fd, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .sokol = .{
+            .url = "git+https://github.com/floooh/sokol-zig.git#14c6a260ea29fe740694a10252dc8074035bc84c",
+            .hash = "sokol-0.1.0-pb1HKx7kMgBAmqYLBtQ1W7CFVzjPNSAWl_bejkdx0jpR",
+        },
+        .zmath = .{
+            .url = "https://github.com/zig-gamedev/zmath/archive/refs/heads/main.tar.gz",
+            .hash = "zmath-0.11.0-dev-wjwivdMsAwD-xaLj76YHUq3t9JDH-X16xuMTmnDzqbu2",
+        },
+        .shdc = .{
+            .url = "git+https://github.com/floooh/sokol-tools-bin#87a6914bb5eab83f13b12db6dfd4c1333494d076",
+            .hash = "sokolshdc-0.1.0-r2KZDhCTcARkWp7-FHBGPghlpM9lLOxPaccqSdy5Cr-R",
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+        "LICENSE",
+    },
+}
